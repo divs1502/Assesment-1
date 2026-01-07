@@ -29,7 +29,7 @@ function App() {
     setIsLoading(true);
   
     try {
-      const response = await fetch('https://localhost:5000/Commision', {
+      const response = await fetch('https://localhost:5000/Commission', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

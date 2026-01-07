@@ -4,7 +4,7 @@ namespace AvalphaTechnologies.CommissionCalculator.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class CommisionController : ControllerBase
+    public class CommissionController : ControllerBase
     {
         private const decimal AvalphaLocalRate = 0.20m;
         private const decimal AvalphaForeignRate = 0.35m;
